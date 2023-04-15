@@ -1,0 +1,17 @@
+{
+    "name": "harvest-snap",
+    "version": "1.0.0",
+    "description": "Packaged by Lucas Hernández. This is not an official harvest snap.",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder --linux snap"
+    },
+    "keywords": [],
+    "author": "Lucas Hernández Abreu",
+    "license": "ISC",
+    "devDependencies": {
+        "electron": "18.2.4",
+        "electron-builder": "23.0.3"
+    }
+}
