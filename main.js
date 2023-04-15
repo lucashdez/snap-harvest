@@ -4,9 +4,8 @@ app.on("ready", () => {
         autoHideMenuBar: true,
     });
     win.maximize();
-    win.loadURL("https://www.getharvest.com/");
-
-
+    win.loadURL("https://id.getharvest.com/accounts");
+    
     win.webContents.setWindowOpenHandler(({ url }) => {
         if (!url.startsWith("https://www.getharvest.com")) {
             shell.openExternal(url);

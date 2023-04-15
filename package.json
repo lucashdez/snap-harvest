@@ -1,6 +1,6 @@
 {
     "name": "harvest-snap",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Packaged by Lucas Hernández. This is not an official harvest snap.",
     "main": "main.js",
     "scripts": {
